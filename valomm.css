@@ -1,0 +1,246 @@
+body{
+  margin:0;
+  background-color: rgb(210, 235, 236);
+}
+.cmc{
+  display: flex;
+  flex-direction: column;
+}
+.req{
+  display:flex;
+  gap: 46px;
+}
+.may{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  margin-left:300px;
+  margin-top: 100px;
+}
+.ck{
+  display: flex;
+  flex-direction: column;
+}
+.name{
+  width: 300px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  padding: 10px;
+  height: 19px;
+}
+#numbera,#numberb{
+  width: 120px;
+  text-align: center;
+  border-radius: 10px;
+  height: 15px;
+}
+#datea,#dateb{
+  width: 120px;
+  text-align: center;
+}
+.end{
+  width: 110;
+  height: 35px;
+  border-radius: 4px;
+  box-shadow: 5px inset;
+  margin-top: 15px;
+  padding-left: 10px;
+  margin-left: 120px;;
+}
+.furt{
+  width: 50%; 
+  margin-top: 0px;
+}
+h1{
+  margin-left: 50px;
+  margin-top: 40px;
+  margin-bottom: 0px;
+}
+.cmcd{
+  display: flex;
+  flex-direction: column;
+}
+.manega{
+  display: flex;
+  flex-direction: column;
+
+}
+.manega{
+  width:200px;
+  padding-left:20px;
+  height:25px;
+  border: 2px solid black;
+  border-radius: 7px;
+}
+.feres{
+  margin: 0;
+  padding:0;
+  margin-left:250px;
+  margin-top:150px;
+}
+.merho{
+  width:300px;
+  margin-top: 30px;
+}
+.mertho{
+  width:300px;
+  margin-top: 10px;
+}
+form button{
+  width:60px;
+  height:40px;
+  margin-left:163px;
+  margin-top:8px;
+  border-radius: 10px;
+  box-sizing:border-box;
+}
+.view{
+  width:200px;
+  height:120px;
+}
+h3{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 10px;
+    bottom:50px;
+    top: 50px;
+}
+.viewer{
+  width:350px;
+    height:250px;
+    margin:30px 30px 0 30px;
+}
+.fengo{
+    display:flex;
+    flex-wrap:wrap;
+    background-color: rgb(189, 192, 194);
+    margin-left: 5px;
+    margin-bottom: 30px;
+    height: auto;
+}
+.xeze{
+  display: inline-flex;
+  margin-left: 30px;
+  height: 55px;
+  width:425px;
+  background-color: rgb(189, 192, 194);
+}
+.kaw{
+  height:50px;
+}
+.kaw:focus{
+  outline: 2px lightblue;
+  background-color: rgb(189, 192, 194);
+  border: none;
+}
+footer{
+    width:100%;
+    padding: 20px 40px;
+    background-color: rgb(118, 127, 171);
+    margin-top: auto;
+}
+.barba{
+    list-style: none;
+}
+.kvr:hover{
+    color:hsl(0, 92%, 33%);
+}
+.youtube:hover{
+    color: red;
+}
+.gmail:hover{
+    color: lab(63.17% -8.85 65.11 / 0.753);
+}
+.contact:hover{
+    color: black;
+}
+.social{
+    display: grid;
+}
+.kvr,.youtube,.gmail{
+    display: inline-flex;
+    gap: 8px;
+    align-items: center;
+    text-decoration: none;
+}
+.contact span{
+    margin-left: 3px;
+    font-size:13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer h3{
+    font-size: medium;
+    font-weight: bolder;
+    margin:0 300px;
+}
+footer hr{
+    /*align-items: start;*/
+    width:90%;
+    align-items: start;
+}
+.star-rating {
+  margin-left: 50px;
+  margin-top: 250px;
+  font-size: 30px;
+  cursor: pointer;
+}
+#rating-value{
+  margin-left: 50px;
+}
+.star-rating span {
+  color: hwb(72 41% 57% / 0.92);
+}
+
+.star-rating span.filled {
+  color: gold;
+}
+
+.ter{
+  margin:0 5px;
+  padding:o;
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.desak{
+  display:flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+#sard{
+  margin-left:50px;
+  margin-top:5px;
+  height:25px;
+  padding:5px;
+  border-radius: 8px;
+  border:solid black;
+}
+.maf{
+  display: flex;
+  flex-direction: column;
+  margin:30px 30px;
+}
+.maf img{
+  width: 300px;
+  height:220px;
+}
+.maf h4,span{
+    margin:0;
+    padding:15px ;
+    width:300px;
+    height:15px;
+    box-shadow: inset;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+}
+.maf span{
+  margin: 0;
+  top:0;
+}
+.ario{
+  display:flex;
+  flex-direction: row;
+}
+

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <title>Book now</title>
+        <link rel="stylesheet" href="valomm.css">
+    </head>
+    <body>
+        <nav class="may"> 
+             <h1>Reserve your Room</h1>
+             <hr>
+             <form id="begin" class="furt">
+                 <div class="cmcd">
+                     <label>Name</label>
+                     <input id="Name" class="name" placeholder="Enter your name">
+                 </div>
+                 <div class="req">
+                     <div class="cmc ">
+                         <label>Adult</label>
+                         <input id="numbera" type="number" min="1" value="1">
+                     </div>
+                     <div class="cmc">
+                         <label>Child</label>
+                         <input id="numberb" type="number" min="0" value="1">
+                     </div>
+                 </div>
+                 <div class="req">
+                     <div class="ck">
+                         <label>Check-in</label>
+                         <input id="datea" type="date">
+                     </div>
+                     <div class="ck">
+                         <label>Check-out</label>
+                         <input id="dateb" type="date">
+                     </div>
+                 </div>
+                 <button id="button" class="end" type="submit">Submit</button>
+                 <div id="error-msg"></div>
+                 <div id="total-msg"></div>
+            </form>
+        </nav>
+    <script src="occyp.js"></script>
+    </body>
+</html>

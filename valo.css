@@ -1,0 +1,198 @@
+body{
+    margin: 0px;
+}
+.barba{
+    list-style: none;
+}
+.kvr:hover{
+    color:hsl(0, 92%, 33%);
+}
+.youtube:hover{
+    color: red;
+}
+.gmail:hover{
+    color: lab(63.17% -8.85 65.11 / 0.753);
+}
+.contact:hover{
+    color: black;
+}
+.mvr{
+    position: fixed;
+    width: 100%;
+    margin: 0px;
+    top: 0;
+    display:flex;
+    flex-direction: row;
+    background-color: #1989bd;
+    height: 80px;
+    list-style: none;
+    align-items:center;
+    font-size: 30px;
+    color: #9bcd30;
+}
+.mvr li:hover{
+    color:black;
+}
+.mvr li:nth-child(1){
+    margin-left:10px;
+}
+.mvr li:nth-child(2){
+    margin-left:30px;
+}
+.mvr li:nth-child(3){
+    margin-left:20px;
+}
+.mvr li:nth-child(4){
+    margin-left:40px;
+}
+.mvr li:nth-child(6){
+    margin-left:20px;
+}
+.mvr li:nth-child(7){
+    margin-left:20px;
+}
+.mvr li:nth-child(8){
+    margin-left:20px;
+}
+.bas{
+    border-radius:18px;
+    border: 2px solid;
+    height:30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.masd{
+    background-color: #219bd0;
+    display: inline-flex;
+    gap:3px;
+    top: 0;
+    width: 100%;
+    align-items: center;
+    height: 50px;
+}
+.social{
+    display: grid;
+}
+.kvr,.youtube,.gmail{
+    display: inline-flex;
+    gap: 8px;
+    align-items: center;
+    text-decoration: none;
+}
+.contact span{
+    margin-left: 3px;
+    font-size:13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.gert{
+    width: 300px;
+    height: auto;
+    margin-top: 20px;
+}
+footer{
+    width: 100%;
+    padding: 20px 40px;
+    background-color: rgb(118, 127, 171);
+}
+.ferge{
+    width: 100%;
+    margin-top: 60px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+}
+.box{
+    display: flex;
+    flex-direction:column;
+    padding-left: 5px;
+}
+.box input{
+     width: 140px;
+}
+.cjf{
+    width:120px;
+    height: 60px;
+    background-color: #9bcd30;
+    border: 1px lightcyan;
+    border-radius: 4px;
+    top:2px;
+    margin-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    font-weight: bold;
+}
+.cjf:hover{
+    background-color: brown;
+}
+#menu-list{
+    background-color: hsl(200, 43%, 95%);
+    position:absolute;
+    margin: 0;
+    left:0;
+    top:0;
+    list-style: none;
+    padding-bottom:100% ;
+    width:300px;
+    padding-top: 30px;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hidden{
+    display:none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#menu-icon{
+    cursor: pointer;
+}
+
+.damot{
+    padding-left: 34px;
+}
+hr{
+    width: 80%;
+}
+.mashap{
+    text-align: center;
+}
+p{
+    padding-left: 4px;
+    text-align: start;
+}
+.view{
+    width:300px;
+    height:200px;
+}
+.faf{
+    display: flex;
+    padding-left: 30px;
+    gap: 40px;
+    margin-bottom:20px;
+    list-style: none;
+}
+footer h3{
+    font-size: medium;
+    font-weight: bolder;
+}
+#book,#taye,#room{
+    text-decoration:none;
+    color: black
+}
+footer hr{
+    /*align-items: start;*/
+    width:90%;
+    align-items: start;
+}
+#baba{
+    text-decoration: none;
+    color: #9bcd30;
+}
+#baba:hover{
+    color: black;
+}
+.dd{
+    width:80px;
+    height: 72px;
+    margin-top: 2px;
+
+}
